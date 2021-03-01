@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 class TaskTile extends StatelessWidget {
+  /**
+   * Represents one separated task tile with name and checkbox.
+   * When checkbox is checked text is crossed.
+   * If task tile is pressed longer it is deleted.
+   */
   TaskTile({this.name, this.isDone = false, this.chceckBoxCallback, this.callbackLongPress});
   final bool isDone;
   final String name;

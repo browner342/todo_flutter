@@ -4,6 +4,9 @@ import 'package:provider/provider.dart';
 import '../models/task_data.dart';
 
 class TasksList extends StatelessWidget {
+  /**
+   * Represtents all tasks in one place
+   */
 
   @override
   Widget build(BuildContext context) {

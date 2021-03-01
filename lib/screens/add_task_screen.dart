@@ -3,6 +3,9 @@ import '../models/task_data.dart';
 import 'package:provider/provider.dart';
 
 class AddTaskScreen extends StatelessWidget {
+  /**
+   * Screen which shows from the bottom, allows user to add task to the list of tasks
+   */
 
   @override
   Widget build(BuildContext context) {

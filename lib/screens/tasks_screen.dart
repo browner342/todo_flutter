@@ -7,6 +7,9 @@ import 'package:provider/provider.dart';
 import '../models/task_data.dart';
 
 class TasksScreen extends StatelessWidget {
+  /**
+   * Main screen with List of tasks and information about how much tasks are in the list
+   */
 
   @override
   Widget build(BuildContext context){
